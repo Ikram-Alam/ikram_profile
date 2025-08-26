@@ -110,13 +110,14 @@ export const SkillsInfo = [
   },
 ];
 
-
+import favicon from './assets/favicon.ico';
+import favicon1 from './assets/favicon1.png';
 
 // Experience Section
   export const experiences = [
   {
     id: 0,
-    img: "./src/assets/favicon.ico", // you said you'll add logo yourself
+    img: favicon , // you said you'll add logo yourself
     role: "Junior Software Engineer",
     company: "InnoBee IT Consulting",
     date: "April 2025 - Present",
@@ -134,7 +135,7 @@ export const SkillsInfo = [
   },
   {
     id: 1,
-    img: "./src/assets/favicon.ico", // you said you'll add logo yourself
+    img: favicon, // you said you'll add logo yourself
     role: "Intern Software Engineer",
     company: "InnoBee IT Consulting",
     date: "Jan 2025 - March 2025",
@@ -151,7 +152,7 @@ export const SkillsInfo = [
   },
   {
     id: 2,
-    img: "./src/assets/favicon1.png", // you said you'll add logo yourself
+    img: favicon1, // you said you'll add logo yourself
     role: "Freelance Consultant",
     company: "Independent",
     date: "2023 - Present",
@@ -174,12 +175,14 @@ export const SkillsInfo = [
 ];
   
 
-
+import uit from './assets/uit.png';
+import dj from './assets/dj.png';
+import giaic from './assets/giaic.png';
 // Education Section
   export const education = [
   {
     id: 0,
-    img: "./src/assets/uit.png",
+    img: uit,
     school: "UIT University, Karachi",
     date: "2025 - Ongoing",
     grade: "CGPA 3.5/4.0",
@@ -188,7 +191,7 @@ export const SkillsInfo = [
   },
   {
     id: 1,
-    img: "./src/assets/giaic.png",
+    img: giaic,
     school: "GIAIC (Governor Initiative for Artificial Intelligence and Computing)",
     date: "2024 - 2025",
     grade: "A+",
@@ -197,7 +200,7 @@ export const SkillsInfo = [
   },
   {
     id: 2,
-    img: "./src/assets/dj.png",
+    img: dj,
     school: "D.J. Science College, Karachi",
     date: "2022 - 2024",
     grade: "A",
@@ -257,10 +260,17 @@ export const SkillsInfo = [
 
 // Certifications Section
 
+import ml from './assets/ml.jpg';
+import ai from './assets/ai.jpg';
+import py from './assets/py.jpg';
+import bdata from './assets/bdata.jpg';
+import mazure from './assets/mazure.jpg';
+import oracle from './assets/oracle.jpeg';
+
   export const certifications = [
   {
     id: 3,
-    img: "./src/assets/oracle.jpeg", // you will replace with Microsoft logo
+    img: oracle, // you will replace with Microsoft logo
     title: "Oracle Certified: AI Foundations Associate",
     provider: "Oracle",
     date: "2025",
@@ -272,7 +282,7 @@ export const SkillsInfo = [
   },
   {
     id: 0,
-    img: "./src/assets/ai.png", // you will replace with Microsoft logo
+    img: ai, // you will replace with Microsoft logo
     title: "Microsoft Certified: AI Fundamentals (AI-900)",
     provider: "Microsoft",
     date: "2024",
@@ -283,7 +293,7 @@ export const SkillsInfo = [
   },
   {
     id: 1,
-    img: "./src/assets/ml.png", // replace with IBM logo
+    img: ml, // replace with IBM logo
     title: "IBM Certified: Machine Learning with Python",
     provider: "IBM",
     date: "2023",
@@ -294,7 +304,7 @@ export const SkillsInfo = [
   },
   {
     id: 2,
-    img: "./src/assets/py.png", // replace with IBM logo
+    img: py, // replace with IBM logo
     title: "IBM Certified: Python for Data Science and AI",
     provider: "IBM",
     date: "2023",
@@ -305,7 +315,7 @@ export const SkillsInfo = [
   },
   {
     id: 4,
-    img: "./src/assets/bdata.png", // replace with Google logo
+    img: bdata, // replace with Google logo
     title: "Google Certified: Foundations of Data",
     provider: "Google",
     date: "2024",
@@ -317,7 +327,7 @@ export const SkillsInfo = [
 
   {
     id: 5,
-    img: "./src/assets/mazure.png", // replace with IBM logo
+    img: mazure, // replace with IBM logo
     title: "Microsoft Azure for data engineering",
     provider: "Microsoft",
     date: "2024",
